@@ -8,11 +8,13 @@ public class CastingTest2 {
 		Car car2 = null;
 		FireEngine fe = null;
 		
+		System.out.println(car instanceof FireEngine);
 		car.drive();
-		fe = (FireEngine)car;
-		fe.drive();
-		car2 = fe;
-		car2.drive();
+		// error 형변환 에러 ( 실행시 에러 )
+		// fe = (FireEngine)car;
+		// fe.drive();
+		// car2 = fe;
+		// car2.drive();
 
 	}
 
