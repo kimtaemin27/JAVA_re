@@ -1,7 +1,5 @@
 package ch9_2;
 
-import java.util.*;
-
 public class StringTokenizer {
 
 	public static void main(String[] args) {
