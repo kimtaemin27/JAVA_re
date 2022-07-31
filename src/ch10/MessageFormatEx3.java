@@ -6,6 +6,7 @@ public class MessageFormatEx3 {
 
 	public static void main(String[] args) throws Exception {
 		
+		
 		String[] data = {
 				"INSEERT INTO CUST_INFO VALUES ('김태민', '12-123-1234', '26', '07-31');",
 				"INSEERT INTO CUST_INFO VALUES ('홍길동', '12-345-6789', '27', '07-30');"
